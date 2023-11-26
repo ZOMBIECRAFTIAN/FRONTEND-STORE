@@ -1,31 +1,27 @@
 :root {
-   --primario: #9c27b0
-   --primarioOscuro: #89119d
-   --Secundario: #ffce00
-   --secundariooscuro: rgb(233,187,2);
-   --blanco: #fff
-   --negro: #000
-
-   --fuentepriincipal: 'staatliches', cursive;
-
-}
-html{
-
-    box-sizing: border-box;
-    font-size: 62.5%;
-}
-
-*,*::before,*::after{
-    box-sizing: inherit;
-}
-
-/**globales**/
-body{
-    background-color: var(--primario);
-    font-size: 1.6rem;
-    line-height: 1.5;
-
-}
+    --primario: #9c27b0;
+    --primarioOscuro: #89119d;
+    --Secundario: #ffce00;
+    --secundariooscuro: rgb(233,187,2);
+    --blanco: #fff;
+    --negro: #000;
+    --fuentepriincipal: 'staatliches', cursive;
+ }
+ 
+ html {
+     box-sizing: border-box;
+     font-size: 62.5%;
+ }
+ 
+ *, *::before, *::after {
+     box-sizing: inherit;
+ }
+ 
+ /**globales**/
+ body {
+     background-color: var(--primario);
+     font-size: 1.6rem;
+ }
 p{
 font-size: 1.8rem;
 font-family: Arial, Helvetica, sans-serif;

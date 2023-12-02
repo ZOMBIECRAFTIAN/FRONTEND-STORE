@@ -157,10 +157,13 @@ background-image: url(../img/grafico1.jpg);
 /**Nosotros**/
 .nosotros{
 display: grid;
-grid-template-columns: repeat(2,1fr);
+grid-template-columns: repeat(2, auto);
 }
-.nosotros__contenido{
-
+@media(mid-width:768px){
+    .nosotros{
+        grid-template-columns: repeat(4,1fr);
+        column-gap: 2rem;
+    }
 }
 .nosotros__imagen{
 grid-row: 1/2;
